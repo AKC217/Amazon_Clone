@@ -23,11 +23,11 @@
     background-image: url(amazon_logo.png);
     background-size: cover;
     height: 50px;
-    width: 100px;
+    width: 100%;
 }
 
 .border{
-    border: 2px solid transparent;
+    border: 1.5px solid transparent;
 }
 
 .border:hover{
@@ -42,7 +42,7 @@
 
 .address-first{
 color: rgba(204,204,199,255);
-font-size: 0.8rem;
+font-size: 0.85rem;
 margin-left: 15px;
 }
 
@@ -63,10 +63,14 @@ margin-left: 15px;
     display: flex;
     width: 620px;
     height: 40px;
-    background-color: pink;
     border: none;
-    justify-content:space-evenly;
+   justify-content: space-evenly;
     border-radius: 4px;
+    
+}
+
+.nav-search:hover{
+    border: 2px solid #ffa500;
 }
 
 .search-select{
@@ -88,20 +92,53 @@ margin-left: 15px;
     width: 45px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    
 
 }
 
 
-.search-bar{
-    height:40px;
-    width:100%;
+.search-input{
+    height: 40px;
+    width: 100%;
     border: none;
+    font-size: 1rem;
     
 
 }
 
+/*box-4*/
+.nav-box-4{
+    
+    height: 40px;
+    
+}
+
+.nav-box-5{
+   
+    height: 40px;
+    
+}
+
+
+
+.line1{
+    font-size: 0.7rem;
+}
+
+.nav-2{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/*cart*/
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
